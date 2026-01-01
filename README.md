@@ -88,6 +88,13 @@ Optional query params:
 
 ## How to Run
 
+**Environment Setup**
+Create a .env file in the root directory and add the following environment variables:
+
+`PORT=5000`
+`MONGO_URI=mongodb://127.0.0.1:27017/study_material_db`
+
+
 ```bash
 npm install
 npm run dev
